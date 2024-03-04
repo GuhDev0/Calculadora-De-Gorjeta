@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+:root{
+--primary:#C4E4E7;
+--segundary:#415352;
+--DarkGren:#00474B;
+--white:#FFFFFF;
+--erro-vermelho:#CB8B7A;
+}
+
+html{
+    font-family: "space Mono", monospace;
+    font-size: 62.5%;
+    
+}
+div,input,button{
+    border-radius: 1em;
+    border: none;
+}
+p,label{
+    
+    box-sizing: border-box;
+}
+.btn{
+    background-color: var(--DarkGren);
+    color: var(--white);
+    width: 4em;
+    height: 2em;
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 1em;
+    border-radius: 0.5em ;
+}
+.btn:hover{
+    background-color: var(--primary);
+    color: var(--DarkGren);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary);
+    color: var(--segundary);
+}
+.card-carteira{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    width: 50em;
+    height: 50%;
+    gap: 20px;
+    
+}
+.conteudo-Carteira{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;    
+}
+
+label,p{
+    display: block;
+    margin-bottom: 10px;
+}
+
+ input{
+    border-radius: 5px;
+    text-align: end;
+    padding: 0 0.5em;
+    background-color: #d7ebf0a2;
+    display: flex;
+    color: var(--DarkGren);
+    font-weight: bold;
+    font-size: 1.7em;
+    width: 92%; 
+    height: 1.5em;
+    cursor: pointer;
+    outline: none;
+    
+}
+input:hover,input:active{
+   border: 2px solid #2AC3AF;
+   
+}
+
+
+
+
+.container-value-gorjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--DarkGren);
+    height: 80%;
+    padding: 2em;
+    width: 50%;
+    
+}
+
+.container-gorjeta-dividida div{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container-gorjeta-dividida p{
+    color: var(--white);
+    font-size: 0.9em;
+}
+.container-gorjeta-dividida strong{
+    color: #548589;
+}
+ .gorjetaDividida,.valorGorjeta{
+    color: #24BDA8 !important;
+    font-size: 3em !important;
+}
+
+
+.container-value-gorjeta .reset{
+    background-color: #0D686D;
+    color: var(--DarkGren);
+    display: flex;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.container-value-gorjeta .reset:hover{
+    background-color: var(--primary);
+}

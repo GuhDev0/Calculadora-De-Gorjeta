@@ -14,31 +14,42 @@
   </head>
   <body>
     <div class="card-carteira">
-        <div class="container-carteira">
-            <label for="icarteira">Carteira</label>
-            <input type="number" name="" id="icarteira">
+        <div class="conteudo-Carteira">
+              <div>
+                <label for="icarteira">Carteira</label>
+                <input type="number" name="" id="icarteira" >
+              </div>
+              
+            <div class="container-btn">
+              <p>Selecione a porcetagem </p>
+              <button class="btn btnCincoPorce" >5%</button>
+              <button class="btn btnDezPorce" >10%</button>
+              <button class="btn btnQuinzePorce" >15%</button>
+              <button class="btn btnVinteCincoPorce" >25%</button>
+              <button class="btn btnCinquentaPorce" >50%</button>
+             
+          </div>
+          <div>
             <label for="ipessoaDividida">Número de pessoas</label>
             <input type="number" id="ipessoaDividida">
-        </div>
-        <div class="container-btn">
-            <p>Selecione a porcetagem </p>
-            <button class="btn btnCincoPorce" >5%</button>
-            <button class="btn btnDezPorce" >10%</button>
-            <button class="btn btnQuinzePorce" >15%</button>
-            <button class="btn btnVinteCincoPorce" >25%</button>
-            <button class="btn btnCinquentaPorce" >50%</button>
+          </div>
         </div>
         <div class="container-value-gorjeta">
             <div class="container-gorjeta-dividida">
-                <p>Valor a Apagar <br> / para cada pessoa</p>
-                <p class="gorjetaDividida"><i>R$</i>0.00</p>
+                <div>
+                  <p>Valor a Apagar <br> <strong>/person</strong></p>
+                  <p class="gorjetaDividida"><i>$</i>0.00</p>
+                </div>
+                <div>
+                  <p>valor da Gorjeta <strong>/person</strong></p>
+                  <p class="valorGorjeta"><i>$</i>0.00</p>
+                </div>
             </div>
-            <div class="container-value-total">
-                <p>valor da Gorjeta</p>
-                <p class="valorGorjeta"><i>R$</i>0.00</p>
+            <div>
+              <input class="reset" type="reset" value="Reset">
             </div>
-        </div>
-
+          </div>
+          
     </div>
                 
 
