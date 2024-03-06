@@ -1,0 +1,39 @@
+@media (max-width:800px){
+    .card-carteira{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 30em;
+ 
+    }
+.container-value-gorjeta{
+  width: 20em;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.container-gorjeta-dividida{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 20px;
+   
+        
+}
+.container-gorjeta-dividida div{
+    margin: 0;
+}
+.container-gorjeta-dividida p{
+  margin: 0;
+}
+.container-gorjeta-dividida .valorGorjeta,.gorjetaDividida {
+    font-size: 2em !important;
+
+}
+ div .reset{
+    width: 100% !important;
+    
+}
+}
